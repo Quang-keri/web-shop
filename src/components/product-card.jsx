@@ -6,7 +6,7 @@ export default function ProductCard({ product }) {
         <img
           src={product.image || "/placeholder.svg"}
           alt={product.name}
-          className="w-180 h-90 object-center"
+          className="w-180 h-70 object-center"
         />
       </div>
 
