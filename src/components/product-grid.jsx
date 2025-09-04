@@ -52,14 +52,13 @@ const products = [
 export default function ProductGrid() {
   return (
     <section id="products" className="py-1 px-1">
-      <div className="container mx-auto">
+      <div className="">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Sản Phẩm Nổi Bật
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Các phần mềm giáo dục được tin dùng nhất hiện
-            nay
+            Các phần mềm giáo dục được tin dùng nhất hiện nay
           </p>
         </div>
 
